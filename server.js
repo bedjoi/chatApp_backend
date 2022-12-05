@@ -17,7 +17,7 @@ const server = require('http').createServer(app);
 const PORT = 8000;
 const io = require('socket.io')(server, {
   cors: {
-    origin: 'http://localhost:3000',
+    origin: 'https://jeantchat.vercel.app',
     methods: ['GET', 'POST']
   }
 })
